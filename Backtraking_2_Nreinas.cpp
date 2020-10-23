@@ -5,7 +5,7 @@ int x=0;
 
 //Aca comprobamos si la reina esta colocado en una posicion valida
 //para que la posicion sea valida las reinas no deben en la misma columna
-//y tampoco pueden estar en la misma fila
+//y tampoco pueden estar en la misma fila, ni diagonal
 bool comprobar(int reinas[],int n, int k){
 	int i;
 	for(i=0;i<k;i++){
